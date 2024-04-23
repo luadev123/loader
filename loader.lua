@@ -102,10 +102,4 @@ pcall(function()
 	loadstring(game:HttpGet(ScriptString))()
 end)
 
-if Config.Debug == true then
-	print(' Logged In!')
-    print(' User Data')
-    print(' Username:' .. data.info.username)
-    print(' Created at:' .. data.info.createdate)
-    print(' Last login at:' .. data.info.lastlogin)
-end
+print(' Logged In!')
